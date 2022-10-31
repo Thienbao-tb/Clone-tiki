@@ -1,0 +1,42 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+    --border-color:#dbdbdb;
+    --primary-color:#1A94FF;
+}
+*{
+    box-sizing: inherit;
+}
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+} 
+
+.grid{
+    width: 1260px;
+    max-width:100%;
+    margin: 0 auto;
+}
+.grid__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 -5px ;
+}
+
+.grid__column-2{
+    padding: 0 5px;
+    width: 16.6667%;
+}
+.grid__column-10{
+    padding: 0 5px;
+    width: 83.3334%;
+}
+.grid__column-2-4{
+    padding: 0 5px;
+    width: 20%;
+}
+
+ 

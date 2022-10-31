@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiki</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/icon/fontawesome-free-6.2.0-web/fontawesome-free-6.2.0-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <div class="header__navbar">
+                    <div class="header__navbar--top">
+                        
+                        <div class="header__navbar--logo-menu">
+                            <a href="" class="header__navbar--logo-link">
+                                <img src="./assets/img/icon.png" alt="" class="header__navbar--logo">
+                            </a>
+                        </div>
+                        <div class="header__navbar--search">
+                            <input type="text" class="header__navbar--input" placeholder="Tìm sản phẩm, danh mục hay thương hiệu mong muốn ...">
+                            <div class="header__navbar--btn-search">
+                                <img class="header__navbar--icon-search" src="./assets/img/icon-search.png" alt="">
+                                <span>Tìm Kiếm</span>
+                            </div>
+                        </div>
+                        <a href="" class="header__navbar--sign">
+                            <img src="./assets/img/icon-user.png" alt="" class="header__navbar--icon-user">
+                            <span class="header__navbar--sign--text">
+                               <span class="header__navbar--sign--sign-in-up">
+                                Đăng Nhập / Đăng Ký
+                               </span>
+                               <span class="header__navbar--sign--sign-in-up1">
+                                    <span>Tài khoản</span> 
+                                    <img src="./assets/img/icon-down.png" alt="" class="header__navbar--icon-down">
+                               </span>
+                            </span>
+                        </a>
+                        <a class="header__navbar--cart">
+                                <img src="./assets/img/icon-cart.png" alt="" class="header__navbar--cart-icon">
+                                <div class="hear-cart-notice">0</div>
+                                 <div>Giỏ Hàng</div>
+                        </a>
+                    </div>
+                    <div class="header__navbar--bottom">
+                        <a href="" class="header__navbar--slogan-link">
+                            <img style="height: 18px;width: 129px" src="./assets/img/slogant.png" alt="" class="header__navbar--slogan">
+                        </a>
+                        <div class="header__navbar--list-product">
+                            <a href="" class="header__navbar--product">999 bức thư gửi chính mình</a>
+                            <a href="" class="header__navbar--product">tâm lí học tội phạm</a>
+                            <a href="" class="header__navbar--product">hành tinh của một kẻ nghĩ nhiều</a>
+                            <a href="" class="header__navbar--product">sách hay</a>
+                            <a href="" class="header__navbar--product">hiểu về trái tim</a>
+                            <a href="" class="header__navbar--product">đắc nhân tâm</a>  
+                        </div>
+                        <a href="#" class="tiki-seller">
+                            <img style="height: 12px;width: 12px" class="tiki-seller-icon" src="https://frontend.tikicdn.com/_desktop-next/static/img/icon-seller.svg">
+                            <span>Bán hành cùng Tiki</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="grid">
+                <ul class="product__list-top">
+                    <li class="product__list-top-item">
+                        <a href="" class="product__list-item-link">Trang chủ</a>
+                    </li>
+                    <svg class="icon-svg" width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#808089" fill-rule="evenodd" clip-rule="evenodd" d="M0.646447 0.646447C0.841709 0.451184 1.15829 0.451184 1.35355 0.646447L6.35355 5.64645C6.54882 5.84171 6.54882 6.15829 6.35355 6.35355L1.35355 11.3536C1.15829 11.5488 0.841709 11.5488 0.646447 11.3536C0.451184 11.1583 0.451184 10.8417 0.646447 10.6464L5.29289 6L0.646447 1.35355C0.451184 1.15829 0.451184 0.841709 0.646447 0.646447Z"></path></svg>
+                    <li class="product__list-top-item">
+                        <a href="" class="product__list-item-link">Nhà Sách Tiki</a>
+                    </li>
+                    <svg class="icon-svg" width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#808089" fill-rule="evenodd" clip-rule="evenodd" d="M0.646447 0.646447C0.841709 0.451184 1.15829 0.451184 1.35355 0.646447L6.35355 5.64645C6.54882 5.84171 6.54882 6.15829 6.35355 6.35355L1.35355 11.3536C1.15829 11.5488 0.841709 11.5488 0.646447 11.3536C0.451184 11.1583 0.451184 10.8417 0.646447 10.6464L5.29289 6L0.646447 1.35355C0.451184 1.15829 0.451184 0.841709 0.646447 0.646447Z"></path></svg>
+                    <li class="product__list-top-item">
+                        <a href="" class="product__list-item-link">Sách tiếng Việt</a>
+                    </li>
+                    <svg class="icon-svg" width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#808089" fill-rule="evenodd" clip-rule="evenodd" d="M0.646447 0.646447C0.841709 0.451184 1.15829 0.451184 1.35355 0.646447L6.35355 5.64645C6.54882 5.84171 6.54882 6.15829 6.35355 6.35355L1.35355 11.3536C1.15829 11.5488 0.841709 11.5488 0.646447 11.3536C0.451184 11.1583 0.451184 10.8417 0.646447 10.6464L5.29289 6L0.646447 1.35355C0.451184 1.15829 0.451184 0.841709 0.646447 0.646447Z"></path></svg>
+                    <li class="product__list-top-item">
+                        <a href="" class="product__list-item-link">Sách kĩ năng sống</a>
+                    </li>
+                    <svg class="icon-svg" width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#808089" fill-rule="evenodd" clip-rule="evenodd" d="M0.646447 0.646447C0.841709 0.451184 1.15829 0.451184 1.35355 0.646447L6.35355 5.64645C6.54882 5.84171 6.54882 6.15829 6.35355 6.35355L1.35355 11.3536C1.15829 11.5488 0.841709 11.5488 0.646447 11.3536C0.451184 11.1583 0.451184 10.8417 0.646447 10.6464L5.29289 6L0.646447 1.35355C0.451184 1.15829 0.451184 0.841709 0.646447 0.646447Z"></path></svg>
+                    <li class="product__list-top-item">
+                        <a href="" class="product__list-item-link product__list-item-link-disable">Sách tư duy - kĩ năng sống</a>
+                    </li>
+                </ul>
+                <div class="grid__row">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <div class="category__address">
+                                <a class="category__-heading">Địa chỉ nhận hàng</a>
+                                <a href="" class="category__address-text">C1T82, P. An Hoà Q. Ninh Kiều, Tp. Cần Thơ</a>
+                                <a href="" class="category__address-change">Đổi địa chỉ</a>
+                            </div>
+                            <div class="category__service">
+                                <h4 class="category__-heading">Dịch vụ</h4>
+                                <a href="" class="category__service-group">
+                                    <input class="category__service-checkbox" type="checkbox">
+                                    <div class="category__service-group-text">
+                                        <img  class="category__service-img" src="./assets/img/now-icon.png" alt="">
+                                        <span class="category__service-text">Giao Siêu Tốc 2H </span> 
+                                    </div>
+                                    
+                                </a>
+                                <a href="" class="category__service-group">
+                                    <input class="category__service-checkbox" type="checkbox">
+                                    <div class="category__service-group-text">
+                                        <img class="category__service-img" src="./assets/img/astra + icon.png" alt="">
+                                        <span class="category__service-text">Thưởng Thêm Astra</span>
+                                    </div>
+                                    
+                                </a>
+                                <a href="" class="category__service-group">
+                                    <input class="category__service-checkbox" type="checkbox">
+                                    <div class="category__service-group-text">
+                                        <img class="category__service-img" src="./assets/img/freeship.png" alt="">
+                                        <span class="category__service-text">Không Giới Hạn</span>
+                                    </div>
+                                    
+                                </a>
+                                <a href="" class="category__service-group">
+                                    <input class="category__service-checkbox" type="checkbox">
+                                    <div class="category__service-group-text">
+                                        <span class="category__service-text">Rẻ Hơn Hoàn Tiền</span>
+                                    </div>
+                                    
+                                </a>
+
+                            </div>
+                            <div class="category__place">
+                                <h4 class="category__-heading">Nơi bán</h4>
+                                <div class="category__place-group">
+                                    <input type="checkbox" name="" id="">
+                                    <a href="" class="category__place-group-text">Hà Nội</a>
+                                </div> 
+                                <div class="category__place-group">
+                                    <input type="checkbox" name="" id="">
+                                    <a href="" class="category__place-group-text">Hồ Chí Minh</a>
+                                </div>
+                                <div class="category__place-group">
+                                    <input type="checkbox" name="" id="">
+                                    <a href="" class="category__place-group-text">Đà Nẵng</a>
+                                </div>
+                                <div class="category__place-group">
+                                    <input type="checkbox" name="" id="">
+                                    <a href="" class="category__place-group-text">Bắc Giang</a>
+                                </div>
+                                <div class="category__place-group">
+                                    <input type="checkbox" name="" id="">
+                                    <a href="" class="category__place-group-text">Hải Phòng</a>
+                                </div>
+                                <div class="category__place-group1"><input type="checkbox" name="" id="">
+                                    <a href="" class="category__place-group-text1">Xem thêm</a>
+                                    <svg class="icon" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#0B74E5" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(11, 116, 229);"><path d="M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z"></path></svg>
+                                </div>
+                            </div>
+                            <div class="category__reviews">
+                                <h4 class="category__-heading">Đánh giá</h4>
+                                <a href="" class="category__reviews-group">
+                                    <div class="category__reviews--star">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#fdd835" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#fdd835" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#fdd835" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#fdd835" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#fdd835" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#fdd835" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#fdd835" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#fdd835" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#fdd835" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#fdd835" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                    </div>
+                                    <div class="category__reviews-text">từ 5 sao</div>
+                                </a>  
+                                <a href="" class="category__reviews-group">
+                                    <div class="category__reviews--star">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#fdd835" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#fdd835" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#fdd835" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#fdd835" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#fdd835" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#fdd835" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#fdd835" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#fdd835" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#b8b8b8" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#b8b8b8" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                    </div>
+                                    <div class="category__reviews-text">từ 4 sao</div>
+                                </a> 
+                                <a href="" class="category__reviews-group">
+                                    <div class="category__reviews--star">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#fdd835" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#fdd835" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#fdd835" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#fdd835" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#fdd835" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#fdd835" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#b8b8b8" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#b8b8b8" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" viewBox="0 0 12 12" class="star-icon"><g fill="none" fill-rule="evenodd"><path fill="#b8b8b8" transform="matrix(-1 0 0 1 11 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path><path fill="#b8b8b8" transform="translate(1 1)" d="M5 0v8.476L1.91 10l.424-3.562L0 3.821l3.353-.678L5 0z"></path></g></svg>
+                                    </div>
+                                    <div class="category__reviews-text">từ 3 sao</div>
+                                </a> 
+                            </div>
+
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-filter">
+                            <div class="home-filter-top">
+                                <h1 class="home-filter-top-heading">Sách tư duy - Kỹ năng sống</h1>
+                                <div class="home-filter-top-filter">
+                                    <ul class="home-filter-top-list">
+                                        <li class="home-filter-top-item">
+                                            <a href="" class="home-filter-top-link">Phổ Biến</a>
+                                        </li>
+                                        <li class="home-filter-top-item">
+                                            <a href="" class="home-filter-top-link">Bán Chạy</a>
+                                        </li>
+                                        <li class="home-filter-top-item">
+                                            <a href="" class="home-filter-top-link">Hàng Mới</a>
+                                        </li>
+                                        <li class="home-filter-top-item">
+                                            <a href="" class="home-filter-top-link">Giá Thấp Đến Cao</a>
+                                        </li>
+                                        <li class="home-filter-top-item">
+                                            <a href="" class="home-filter-top-link">Giá Cao Đến Thấp</a>
+                                        </li>
+                                    </ul>
+                                    <ul class="home-filter-top-list-control">
+                                        <li class="home-filter-top-list-cotrol-item"><span>1 </span>/ 50</li>
+                                        <li class="home-filter-top-list-cotrol-item-1">
+                                            <a href="" class="home-filter-top-list-control-link-left">
+                                                <img style="width:36px;height:36px" class="control-img" src="./assets/img/left-icon.png" alt="">
+                                            </a>
+                                        </li>
+                                        <li class="home-filter-top-list-cotrol-item">
+                                            <a href="" class="home-filter-top-list-control-link-right">
+                                                <img style="width:36px;height:36px" class="control-img-right"  src="./assets/img/left-icon.png" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div  class="home-filter-bottom">
+                                <a href="" class="home-filter-bottom-sticky">
+                                    <img src="./assets/img/now-icon.png" alt="" class="home-filter-img">
+                                </a>
+                                <a href="" class="home-filter-bottom-sticky">
+                                    <img src="./assets/img/astra + icon.png" alt="" class="home-filter-img">
+                                </a>
+                            </div>
+
+                        </div>
+
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <a href="" class="product-item">
+                                        <div class="product-item__img" style="background-image: url('./assets/img/product-img2.webp') ;">
+                                            <img src="./assets/img/img-position.png" alt="" class="product-item__img-position">
+                                            <img src="./assets/img/img-label.png" alt="" class="product-item__img-label">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info-group">
+                                                <h3 class="product-info-name">Ba Người Thầy Vĩ Đại (Tái Bản)</h3>
+                                                <div class="product-info-judge">
+                                                    <span class="product-info-star">
+                                                        <span>4.8</span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="14" color="#fdd836" height="14" width="14" xmlns="http://www.w3.org/2000/svg" style="color: rgb(253, 216, 54);"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                                    <span class="product-info-sold">Đã bán 235</span>
+                                                    </span>
+                                                    <div class="product-info-price">95.000 <sup>đ</sup> <span class="product-info-price-percent">-60%</span> </div>
+                                                    <div class="product-info-price-under">
+                                                        Tặng tới 16 ASA (5k ₫) <br>
+                                                        ≈ 5.4% hoàn tiền
+                                                    </div>
+                                                        <div class="badge-under-rating-block">
+                                                            <span class="badge-under-rating">Freeship+</span>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                                <div class="badge-delivery">
+                                                    <span>Giao thứ 6, ngày 28/10</span>
+                                                </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <a href="" class="product-item">
+                                        <div class="product-item__img" style="background-image: url('./assets/img/product-img2.webp') ;">
+                                            <img src="./assets/img/img-position.png" alt="" class="product-item__img-position">
+                                            <img src="./assets/img/img-label.png" alt="" class="product-item__img-label">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info-group">
+                                                <h3 class="product-info-name">Ba Người Thầy Vĩ Đại (Tái Bản)</h3>
+                                                <div class="product-info-judge">
+                                                    <span class="product-info-star">
+                                                        <span>4.8</span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="14" color="#fdd836" height="14" width="14" xmlns="http://www.w3.org/2000/svg" style="color: rgb(253, 216, 54);"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                                    <span class="product-info-sold">Đã bán 235</span>
+                                                    </span>
+                                                    <div class="product-info-price">95.000 <sup>đ</sup> <span class="product-info-price-percent">-60%</span> </div>
+                                                    <div class="product-info-price-under">
+                                                        Tặng tới 16 ASA (5k ₫) <br>
+                                                        ≈ 5.4% hoàn tiền
+                                                    </div>
+                                                        <div class="badge-under-rating-block">
+                                                            <span class="badge-under-rating">Freeship+</span>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                                <div class="badge-delivery">
+                                                    <span>Giao thứ 6, ngày 28/10</span>
+                                                </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div> 
+                                <div class="grid__column-2-4">
+                                    <a href="" class="product-item">
+                                        <div class="product-item__img" style="background-image: url('./assets/img/product-img2.webp') ;">
+                                            <img src="./assets/img/img-position.png" alt="" class="product-item__img-position">
+                                            <img src="./assets/img/img-label.png" alt="" class="product-item__img-label">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info-group">
+                                                <h3 class="product-info-name">Ba Người Thầy Vĩ Đại (Tái Bản)</h3>
+                                                <div class="product-info-judge">
+                                                    <span class="product-info-star">
+                                                        <span>4.8</span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="14" color="#fdd836" height="14" width="14" xmlns="http://www.w3.org/2000/svg" style="color: rgb(253, 216, 54);"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                                    <span class="product-info-sold">Đã bán 235</span>
+                                                    </span>
+                                                    <div class="product-info-price">95.000 <sup>đ</sup> <span class="product-info-price-percent">-60%</span> </div>
+                                                    <div class="product-info-price-under">
+                                                        Tặng tới 16 ASA (5k ₫) <br>
+                                                        ≈ 5.4% hoàn tiền
+                                                    </div>
+                                                        <div class="badge-under-rating-block">
+                                                            <span class="badge-under-rating">Freeship+</span>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                                <div class="badge-delivery">
+                                                    <span>Giao thứ 6, ngày 28/10</span>
+                                                </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div> 
+                                <div class="grid__column-2-4">
+                                    <a href="" class="product-item">
+                                        <div class="product-item__img" style="background-image: url('./assets/img/product-img2.webp') ;">
+                                            <img src="./assets/img/img-position.png" alt="" class="product-item__img-position">
+                                            <img src="./assets/img/img-label.png" alt="" class="product-item__img-label">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info-group">
+                                                <h3 class="product-info-name">Ba Người Thầy Vĩ Đại (Tái Bản)</h3>
+                                                <div class="product-info-judge">
+                                                    <span class="product-info-star">
+                                                        <span>4.8</span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="14" color="#fdd836" height="14" width="14" xmlns="http://www.w3.org/2000/svg" style="color: rgb(253, 216, 54);"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                                    <span class="product-info-sold">Đã bán 235</span>
+                                                    </span>
+                                                    <div class="product-info-price">95.000 <sup>đ</sup> <span class="product-info-price-percent">-60%</span> </div>
+                                                    <div class="product-info-price-under">
+                                                        Tặng tới 16 ASA (5k ₫) <br>
+                                                        ≈ 5.4% hoàn tiền
+                                                    </div>
+                                                        <div class="badge-under-rating-block">
+                                                            <span class="badge-under-rating">Freeship+</span>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                                <div class="badge-delivery">
+                                                    <span>Giao thứ 6, ngày 28/10</span>
+                                                </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div> 
+                                <div class="grid__column-2-4">
+                                    <a href="" class="product-item">
+                                        <div class="product-item__img" style="background-image: url('./assets/img/product-img2.webp') ;">
+                                            <img src="./assets/img/img-position.png" alt="" class="product-item__img-position">
+                                            <img src="./assets/img/img-label.png" alt="" class="product-item__img-label">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info-group">
+                                                <h3 class="product-info-name">Ba Người Thầy Vĩ Đại (Tái Bản)</h3>
+                                                <div class="product-info-judge">
+                                                    <span class="product-info-star">
+                                                        <span>4.8</span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="14" color="#fdd836" height="14" width="14" xmlns="http://www.w3.org/2000/svg" style="color: rgb(253, 216, 54);"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                                    <span class="product-info-sold">Đã bán 235</span>
+                                                    </span>
+                                                    <div class="product-info-price">95.000 <sup>đ</sup> <span class="product-info-price-percent">-60%</span> </div>
+                                                    <div class="product-info-price-under">
+                                                        Tặng tới 16 ASA (5k ₫) <br>
+                                                        ≈ 5.4% hoàn tiền
+                                                    </div>
+                                                        <div class="badge-under-rating-block">
+                                                            <span class="badge-under-rating">Freeship+</span>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                                <div class="badge-delivery">
+                                                    <span>Giao thứ 6, ngày 28/10</span>
+                                                </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div> 
+                                <div class="grid__column-2-4">
+                                    <a href="" class="product-item">
+                                        <div class="product-item__img" style="background-image: url('./assets/img/product-img2.webp') ;">
+                                            <img src="./assets/img/img-position.png" alt="" class="product-item__img-position">
+                                            <img src="./assets/img/img-label.png" alt="" class="product-item__img-label">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info-group">
+                                                <h3 class="product-info-name">Ba Người Thầy Vĩ Đại (Tái Bản)</h3>
+                                                <div class="product-info-judge">
+                                                    <span class="product-info-star">
+                                                        <span>4.8</span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="14" color="#fdd836" height="14" width="14" xmlns="http://www.w3.org/2000/svg" style="color: rgb(253, 216, 54);"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                                    <span class="product-info-sold">Đã bán 235</span>
+                                                    </span>
+                                                    <div class="product-info-price">95.000 <sup>đ</sup> <span class="product-info-price-percent">-60%</span> </div>
+                                                    <div class="product-info-price-under">
+                                                        Tặng tới 16 ASA (5k ₫) <br>
+                                                        ≈ 5.4% hoàn tiền
+                                                    </div>
+                                                        <div class="badge-under-rating-block">
+                                                            <span class="badge-under-rating">Freeship+</span>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                                <div class="badge-delivery">
+                                                    <span>Giao thứ 6, ngày 28/10</span>
+                                                </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div> 
+                                <div class="grid__column-2-4">
+                                    <a href="" class="product-item">
+                                        <div class="product-item__img" style="background-image: url('./assets/img/product-img2.webp') ;">
+                                            <img src="./assets/img/img-position.png" alt="" class="product-item__img-position">
+                                            <img src="./assets/img/img-label.png" alt="" class="product-item__img-label">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info-group">
+                                                <h3 class="product-info-name">Ba Người Thầy Vĩ Đại (Tái Bản)</h3>
+                                                <div class="product-info-judge">
+                                                    <span class="product-info-star">
+                                                        <span>4.8</span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="14" color="#fdd836" height="14" width="14" xmlns="http://www.w3.org/2000/svg" style="color: rgb(253, 216, 54);"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                                    <span class="product-info-sold">Đã bán 235</span>
+                                                    </span>
+                                                    <div class="product-info-price">95.000 <sup>đ</sup> <span class="product-info-price-percent">-60%</span> </div>
+                                                    <div class="product-info-price-under">
+                                                        Tặng tới 16 ASA (5k ₫) <br>
+                                                        ≈ 5.4% hoàn tiền
+                                                    </div>
+                                                        <div class="badge-under-rating-block">
+                                                            <span class="badge-under-rating">Freeship+</span>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                                <div class="badge-delivery">
+                                                    <span>Giao thứ 6, ngày 28/10</span>
+                                                </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div> 
+                                <div class="grid__column-2-4">
+                                    <a href="" class="product-item">
+                                        <div class="product-item__img" style="background-image: url('./assets/img/product-img2.webp') ;">
+                                            <img src="./assets/img/img-position.png" alt="" class="product-item__img-position">
+                                            <img src="./assets/img/img-label.png" alt="" class="product-item__img-label">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info-group">
+                                                <h3 class="product-info-name">Ba Người Thầy Vĩ Đại (Tái Bản)</h3>
+                                                <div class="product-info-judge">
+                                                    <span class="product-info-star">
+                                                        <span>4.8</span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="14" color="#fdd836" height="14" width="14" xmlns="http://www.w3.org/2000/svg" style="color: rgb(253, 216, 54);"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                                    <span class="product-info-sold">Đã bán 235</span>
+                                                    </span>
+                                                    <div class="product-info-price">95.000 <sup>đ</sup> <span class="product-info-price-percent">-60%</span> </div>
+                                                    <div class="product-info-price-under">
+                                                        Tặng tới 16 ASA (5k ₫) <br>
+                                                        ≈ 5.4% hoàn tiền
+                                                    </div>
+                                                        <div class="badge-under-rating-block">
+                                                            <span class="badge-under-rating">Freeship+</span>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                                <div class="badge-delivery">
+                                                    <span>Giao thứ 6, ngày 28/10</span>
+                                                </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div>    
+                                <div class="grid__column-2-4">
+                                    <a href="" class="product-item">
+                                        <div class="product-item__img" style="background-image: url('./assets/img/product-img2.webp') ;">
+                                            <img src="./assets/img/img-position.png" alt="" class="product-item__img-position">
+                                            <img src="./assets/img/img-label.png" alt="" class="product-item__img-label">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info-group">
+                                                <h3 class="product-info-name">Ba Người Thầy Vĩ Đại (Tái Bản)</h3>
+                                                <div class="product-info-judge">
+                                                    <span class="product-info-star">
+                                                        <span>4.8</span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="14" color="#fdd836" height="14" width="14" xmlns="http://www.w3.org/2000/svg" style="color: rgb(253, 216, 54);"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                                    <span class="product-info-sold">Đã bán 235</span>
+                                                    </span>
+                                                    <div class="product-info-price">95.000 <sup>đ</sup> <span class="product-info-price-percent">-60%</span> </div>
+                                                    <div class="product-info-price-under">
+                                                        Tặng tới 16 ASA (5k ₫) <br>
+                                                        ≈ 5.4% hoàn tiền
+                                                    </div>
+                                                        <div class="badge-under-rating-block">
+                                                            <span class="badge-under-rating">Freeship+</span>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                                <div class="badge-delivery">
+                                                    <span>Giao thứ 6, ngày 28/10</span>
+                                                </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div> 
+                                <div class="grid__column-2-4">
+                                    <a href="" class="product-item">
+                                        <div class="product-item__img" style="background-image: url('./assets/img/product-img2.webp') ;">
+                                            <img src="./assets/img/img-position.png" alt="" class="product-item__img-position">
+                                            <img src="./assets/img/img-label.png" alt="" class="product-item__img-label">
+                                        </div>
+                                        <div class="product-info">
+                                            <div class="product-info-group">
+                                                <h3 class="product-info-name">Ba Người Thầy Vĩ Đại (Tái Bản)</h3>
+                                                <div class="product-info-judge">
+                                                    <span class="product-info-star">
+                                                        <span>4.8</span>
+                                                        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="14" color="#fdd836" height="14" width="14" xmlns="http://www.w3.org/2000/svg" style="color: rgb(253, 216, 54);"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"></path></svg>
+                                                    <span class="product-info-sold">Đã bán 235</span>
+                                                    </span>
+                                                    <div class="product-info-price">95.000 <sup>đ</sup> <span class="product-info-price-percent">-60%</span> </div>
+                                                    <div class="product-info-price-under">
+                                                        Tặng tới 16 ASA (5k ₫) <br>
+                                                        ≈ 5.4% hoàn tiền
+                                                    </div>
+                                                        <div class="badge-under-rating-block">
+                                                            <span class="badge-under-rating">Freeship+</span>
+                                                        </div>
+                                                    
+                                                </div>
+                                            </div>
+                                                <div class="badge-delivery">
+                                                    <span>Giao thứ 6, ngày 28/10</span>
+                                                </div>
+                                        </div>
+                                      
+                                    </a>
+                                </div> 
+                            </div>
+                        </div>
+                        <ul class="pagination home-product-pagination">
+                            <li class="pagination-item pagination-item-left-1">
+                                <a href="" class="pagination-item_link icon-control pagination-item-left">
+                                    <img class="" style="width: 65%; height: 65%;" src="./assets/img/icon-disable.png" alt="">
+                                </a>
+                            </li>
+                            <li class="pagination-item pagination-item1">
+                                <a href="" class="pagination-item_link pagination-item_link-active">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item_link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item_link">3</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item_link">4</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item_link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item_link icon-control">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item_link">14</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item_link icon-control">
+                                    <img class="pagination-item-right" style="width: 100%; height: 100%;" src="./assets/img/left-icon.png" alt="">    
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <h2 class="product-review">
+                    Sản Phẩm Đã Xem
+                </h2>
+                <div class="footer-slider">
+                    Không có sản phẩm nào
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid">
+                <div class="grid__row">
+                    <div class="grid__column-2-4">
+                        <h3 class="foot__heading">Hổ trợ khách hàng</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Hổ trợ khách hàng</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Thiên Bảo shop</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Hướng dẫn mua hàng</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="foot__heading">Về Tiki</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Giới thiệu</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Tuyển dụng</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Điều khoản</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="foot__heading">Hợp tác và liên kết</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Chính hãng</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Kênh người bán</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link">Flash saled</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="grid__column-2-4">
+                        <h3 class="foot__heading">Phương thức thanh toán</h3>
+                        <ul class="footer__list">
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link-link">
+                                    <i class="footer__item-icon fab fa-facebook"></i>
+                                    <a href="" class="footer__list-item-link">
+                                    Facebook
+                                    </a>
+                                </a>
+                                
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link-link">
+                                    <i class="footer__item-icon fab fa-instagram"></i>
+                                    <a href="" class="footer__list-item-link">
+                                    Instagram
+                                    </a>
+                                </a>
+                                
+                            </li>
+                            <li class="footer__list-item">
+                                <a href="" class="footer__list-item-link-link">
+                                    <i class="footer__item-icon fab fa-linkedin"></i>
+                                    <a href="" class="footer__list-item-link">
+                                    Linkidin
+                                    </a>
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="grid__column-2-4">
+                        <h3 class="foot__heading">Kết nối với chúng tôi</h3>
+                        <div class="footer__download">
+                            <img src="./assets/img/qrcode.png" alt="" class="footer__download-qr">
+                            <div class="footer__download-app">
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/img/appstore.png" alt="" class="footer__download-app-img">
+                                </a>
+                                <a href="" class="footer__download-app-link">
+                                    <img src="./assets/img/playstore.png" alt="" class="footer__download-app-img">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
